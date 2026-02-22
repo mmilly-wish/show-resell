@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1126" />
+  <title>멜론 티켓</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', '나눔고딕', Arial, sans-serif;
+      background: #f4f4f4;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      color: #333;
+      font-size: 13px;
+    }
+
+    /* ── 헤더 ── */
+    #hdr {
+      height: 44px;
+      min-height: 44px;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      padding: 0 18px;
+      gap: 10px;
+      flex-shrink: 0;
+      z-index: 10;
+    }
+
+    #hdr .step {
+      font-weight: 700;
+      font-size: 14px;
+      color: #333;
+      white-space: nowrap;
+    }
+
+    #hdr .pipe {
+      color: #ddd;
+      font-size: 16px;
+    }
+
+    #hdr .prod {
+      font-size: 13px;
+      color: #333;
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    #hdr select {
+      border: 1px solid #bbb;
+      border-radius: 3px;
+      padding: 4px 26px 4px 8px;
+      font-size: 13px;
+      color: #333;
+      background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E") no-repeat right 8px center;
+      -webkit-appearance: none;
+      appearance: none;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    #hdr .logo {
+      font-size: 21px;
+      font-weight: 900;
+      white-space: nowrap;
+      letter-spacing: -1px;
+      color: #00c853;
+    }
+
+    #hdr .logo em {
+      color: #333;
+      font-style: normal;
+    }
+
+    /* ── 메인 ── */
+    #main {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    /* ── 좌석 영역 ── */
+    #seat-area {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    /* STAGE 박스 */
+    #stage-wrap {
+      flex-shrink: 0;
+      padding: 14px 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #stage-box {
+      width: 520px;
+      height: 36px;
+      background: #9e9e9e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    #zone-label {
+      font-size: 12px;
+      color: #666;
+      margin-top: 6px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+
+    /* 좌석 스크롤 영역 */
+    #seats-scroll {
+      flex: 1;
+      overflow: auto;
+      padding: 4px 0 8px 12px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    #seats-table {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      flex-shrink: 0;
+    }
+
+    .row-line {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .rn {
+      width: 20px;
+      text-align: right;
+      font-size: 11px;
+      color: #aaa;
+      flex-shrink: 0;
+      margin-right: 3px;
+      line-height: 17px;
+    }
+
+    .seat {
+      width: 17px;
+      height: 17px;
+      background: #c5c8cb;
+      border-radius: 2px;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: background 0.12s ease;
+      position: relative;
+    }
+
+    .seat:hover {
+      background: #a0a4a8;
+      z-index: 5;
+    }
+
+    .seat.sp {
+      background: #7c4dff;
+    }
+
+    /* 시야제한석 */
+    .seat.gap {
+      background: transparent;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    /* 프리미엄 색상 클릭 후 */
+    .seat.sel-0 {
+      background: #00c853 !important;
+    }
+
+    .seat.sel-10 {
+      background: #aeea00 !important;
+    }
+
+    .seat.sel-20 {
+      background: #ffd600 !important;
+    }
+
+    .seat.sel-30 {
+      background: #ff6d00 !important;
+    }
+
+    .seat.sel-50 {
+      background: #d50000 !important;
+    }
+
+    /* ── 우측 패널 ── */
+    #rpanel {
+      width: 262px;
+      min-width: 262px;
+      background: #fff;
+      border-left: 1px solid #ddd;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* 미니맵 영역 */
+    #mm-area {
+      padding: 8px 10px 4px;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    #mm-zoom {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      display: flex;
+    }
+
+    .mzb {
+      width: 22px;
+      height: 22px;
+      background: #fff;
+      border: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 300;
+      color: #555;
+      cursor: pointer;
+      transition: background 0.1s;
+      user-select: none;
+    }
+
+    .mzb:first-child {
+      border-radius: 3px 0 0 3px;
+    }
+
+    .mzb:last-child {
+      border-radius: 0 3px 3px 0;
+      border-left: none;
+    }
+
+    .mzb:hover {
+      background: #f0f0f0;
+    }
+
+    #mm-svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* minimap section shapes */
+    .mms {
+      fill: #e8e8e8;
+      stroke: #fff;
+      stroke-width: 1;
+      cursor: pointer;
+      transition: fill 0.12s;
+    }
+
+    .mms:hover {
+      fill: #d0d0d0;
+    }
+
+    .mms.active {
+      fill: #b8914a;
+    }
+
+    .mmsl {
+      fill: #666;
+      font-size: 6.5px;
+      font-weight: 600;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      pointer-events: none;
+    }
+
+    .mm-stage {
+      fill: #bbb;
+    }
+
+    .mm-stage-text {
+      fill: #fff;
+      font-size: 7px;
+      font-weight: 700;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      pointer-events: none;
+    }
+
+    .mm-inner {
+      fill: #d8d8d8;
+    }
+
+    .mm-floor {
+      fill: #e0dbd0;
+    }
+
+    .mm-floor-label {
+      fill: #888;
+      font-size: 6px;
+      font-weight: 700;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      pointer-events: none;
+    }
+
+    #view-all {
+      display: block;
+      text-align: right;
+      font-size: 12px;
+      color: #888;
+      padding: 4px 10px 6px;
+      cursor: pointer;
+      flex-shrink: 0;
+      text-decoration: none;
+    }
+
+    #view-all:hover {
+      text-decoration: underline;
+    }
+
+    /* 좌석 등급 */
+    #grade-area {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .grade-hdr {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px 8px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .grade-hdr-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .grade-hdr-title i {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      line-height: 14px;
+      border: 1px solid #bbb;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 9px;
+      font-style: normal;
+      color: #888;
+      margin-left: 4px;
+      cursor: pointer;
+    }
+
+    .refresh-btn {
+      font-size: 12px;
+      color: #555;
+      border: 1px solid #ccc;
+      background: #fff;
+      padding: 3px 9px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .refresh-btn:hover {
+      background: #f5f5f5;
+    }
+
+    .grade-item {
+      display: flex;
+      align-items: center;
+      padding: 11px 14px;
+      border-bottom: 1px solid #f5f5f5;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+
+    .grade-item:hover {
+      background: #fafafa;
+    }
+
+    .grade-sq {
+      width: 13px;
+      height: 13px;
+      border-radius: 2px;
+      flex-shrink: 0;
+      margin-right: 9px;
+    }
+
+    .grade-name {
+      flex: 1;
+      font-size: 13px;
+      color: #333;
+    }
+
+    .grade-price {
+      font-size: 13px;
+      color: #333;
+      margin-right: 8px;
+    }
+
+    .grade-arr {
+      font-size: 10px;
+      color: #aaa;
+    }
+
+    /* 선택 좌석 프리미엄 정보 (우측 하단) */
+    #sel-info {
+      padding: 10px 14px;
+      border-top: 1px solid #eee;
+      background: #f9f9f9;
+      display: none;
+      flex-shrink: 0;
+      animation: fi .2s ease;
+    }
+
+    @keyframes fi {
+      from {
+        opacity: 0
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    .si-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 7px;
+    }
+
+    .si-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 2px 0;
+      font-size: 12px;
+      color: #555;
+    }
+
+    .si-row .v {
+      font-weight: 600;
+    }
+
+    /* ── 하단 바 ── */
+    #bottom {
+      height: 44px;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      position: relative;
+    }
+
+    #bottom-msg {
+      flex: 1;
+      height: 100%;
+      background: #555;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      gap: 8px;
+    }
+
+    #bottom-toggle {
+      width: 28px;
+      height: 28px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.8);
+      margin-left: auto;
+    }
+
+    #confirm-btn {
+      width: 262px;
+      min-width: 262px;
+      height: 44px;
+      background: #9e9e9e;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: none;
+      gap: 8px;
+      letter-spacing: 0.3px;
+      flex-shrink: 0;
+      transition: background 0.15s;
+    }
+
+    #confirm-btn:hover {
+      background: #888;
+    }
+
+    #confirm-btn.ready {
+      background: #00c853;
+    }
+
+    #confirm-btn.ready:hover {
+      background: #00b748;
+    }
+
+    #confirm-btn .arr {
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+    /* ── Tooltip ── */
+    #tt {
+      position: fixed;
+      background: rgba(30, 30, 30, 0.95);
+      color: #fff;
+      padding: 9px 13px;
+      border-radius: 5px;
+      font-size: 12px;
+      line-height: 1.8;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.12s;
+      z-index: 9999;
+      min-width: 155px;
+    }
+
+    #tt.on {
+      opacity: 1;
+    }
+
+    #tt .tn {
+      font-weight: 700;
+      color: #69f0ae;
+      margin-bottom: 2px;
+    }
+
+    #tt .tr {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    #tt .tl {
+      color: #aaa;
+    }
+
+    #tt .tv {
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 헤더 -->
+  <div id="hdr">
+    <span class="step">좌석 선택</span>
+    <span class="pipe">|</span>
+    <span class="prod" id="hdr-title">NCT WISH 2ND ANNIVERSARY FANMEETING 〈6명의 왕자가 나에게 청혼을 하면 곤란한데요〉</span>
+    <select id="date-sel">
+      <option>2026.02.21 (토) 14:30</option>
+      <option>2026.02.21 (토) 20:00</option>
+      <option>2026.02.22 (일) 14:30</option>
+      <option>2026.02.22 (일) 20:00</option>
+    </select>
+    <span class="logo">Mel<em>o</em>n 티켓</span>
+  </div>
+
+  <!-- 메인 -->
+  <div id="main">
+
+    <!-- 좌석 영역 -->
+    <div id="seat-area">
+      <div id="stage-wrap">
+        <div id="stage-box">무대방향 (STAGE)</div>
+        <div id="zone-label">현재 보고 계신 구역은 <strong>3 층 35 구역</strong>입니다.</div>
+      </div>
+      <div id="seats-scroll">
+        <div id="seats-table"><!-- JS로 렌더 --></div>
+      </div>
+    </div>
+
+    <!-- 우측 패널 -->
+    <div id="rpanel">
+      <!-- 미니맵 -->
+      <div id="mm-area">
+        <div id="mm-zoom">
+          <div class="mzb" id="mm-zin">+</div>
+          <div class="mzb" id="mm-zout">−</div>
+        </div>
+        <svg id="mm-svg" viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg">
+          <!-- 아레나 배경 -->
+          <ellipse cx="120" cy="106" rx="112" ry="90" fill="#f0f0f0" />
+
+          <!-- 내부 무대+바닥 영역 -->
+          <ellipse cx="120" cy="106" rx="56" ry="44" fill="#e0dbd0" class="mm-floor" />
+          <rect x="96" y="62" width="48" height="28" rx="3" class="mm-stage" />
+          <text x="120" y="77" class="mm-stage-text">STAGE</text>
+
+          <!-- 섹션 — 바깥 링 (방사형 분할) -->
+          <!-- 상단 중앙 섹션들 (1~8) -->
+          <path id="mm-s1" class="mms" d="M120,106 L96,18 A112,90 0 0,1 120,16 Z" />
+          <text x="114" y="32" class="mmsl">1</text>
+          <path id="mm-s2" class="mms" d="M120,106 L120,16 A112,90 0 0,1 144,19 Z" />
+          <text x="126" y="32" class="mmsl">2</text>
+          <path id="mm-s3" class="mms" d="M120,106 L144,19 A112,90 0 0,1 167,28 Z" />
+          <text x="153" y="38" class="mmsl">3</text>
+          <path id="mm-s4" class="mms" d="M120,106 L167,28 A112,90 0 0,1 186,46 Z" />
+          <text x="176" y="54" class="mmsl">4</text>
+
+          <!-- 우측 섹션 (5~13) -->
+          <path id="mm-s5" class="mms" d="M120,106 L186,46 A112,90 0 0,1 204,70 Z" />
+          <text x="196" y="73" class="mmsl">5</text>
+          <path id="mm-s6" class="mms" d="M120,106 L204,70 A112,90 0 0,1 214,96 Z" />
+          <text x="210" y="96" class="mmsl">6</text>
+          <path id="mm-s7" class="mms" d="M120,106 L214,96 A112,90 0 0,1 214,122 Z" />
+          <text x="212" y="120" class="mmsl">7</text>
+          <path id="mm-s8" class="mms" d="M120,106 L214,122 A112,90 0 0,1 204,147 Z" />
+          <text x="210" y="143" class="mmsl">8</text>
+          <path id="mm-s9" class="mms" d="M120,106 L204,147 A112,90 0 0,1 186,166 Z" />
+          <text x="196" y="158" class="mmsl">9</text>
+          <path id="mm-s10" class="mms" d="M120,106 L186,166 A112,90 0 0,1 167,179 Z" />
+          <text x="178" y="173" class="mmsl">10</text>
+
+          <!-- 하단 섹션 (11~19) -->
+          <path id="mm-s11" class="mms" d="M120,106 L167,179 A112,90 0 0,1 144,188 Z" />
+          <text x="157" y="184" class="mmsl">11</text>
+          <path id="mm-s12" class="mms" d="M120,106 L144,188 A112,90 0 0,1 120,191 Z" />
+          <text x="132" y="190" class="mmsl">12</text>
+          <path id="mm-s13" class="mms" d="M120,106 L120,191 A112,90 0 0,1 96,188 Z" />
+          <text x="108" y="190" class="mmsl">13</text>
+          <path id="mm-s14" class="mms" d="M120,106 L96,188 A112,90 0 0,1 73,179 Z" />
+          <text x="83" y="184" class="mmsl">14</text>
+          <path id="mm-s15" class="mms" d="M120,106 L73,179 A112,90 0 0,1 54,166 Z" />
+          <text x="62" y="173" class="mmsl">15</text>
+          <path id="mm-s16" class="mms" d="M120,106 L54,166 A112,90 0 0,1 36,147 Z" />
+          <text x="44" y="158" class="mmsl">16</text>
+
+          <!-- 좌측 섹션 (17~24) -->
+          <path id="mm-s17" class="mms" d="M120,106 L36,147 A112,90 0 0,1 26,122 Z" />
+          <text x="28" y="143" class="mmsl">17</text>
+          <path id="mm-s18" class="mms" d="M120,106 L26,122 A112,90 0 0,1 26,96 Z" />
+          <text x="28" y="120" class="mmsl">18</text>
+          <path id="mm-s19" class="mms" d="M120,106 L26,96 A112,90 0 0,1 36,70 Z" />
+          <text x="30" y="96" class="mmsl">19</text>
+          <path id="mm-s20" class="mms" d="M120,106 L36,70 A112,90 0 0,1 54,46 Z" />
+          <text x="44" y="73" class="mmsl">20</text>
+          <path id="mm-s21" class="mms" d="M120,106 L54,46 A112,90 0 0,1 73,28 Z" />
+          <text x="58" y="54" class="mmsl">21</text>
+          <path id="mm-s22" class="mms" d="M120,106 L73,28 A112,90 0 0,1 96,18 Z" />
+          <text x="80" y="38" class="mmsl">22</text>
+
+          <!-- 내부 2층 링 (23~35) - 작은 섹션들 -->
+          <path id="mm-s23" class="mms" d="M120,106 L105,62 A56,44 0 0,1 120,62 Z" style="stroke-width:0.8" />
+          <text x="113" y="70" class="mmsl" style="font-size:5.5px">23</text>
+          <path id="mm-s24" class="mms" d="M120,106 L120,62 A56,44 0 0,1 135,62 Z" style="stroke-width:0.8" />
+          <text x="127" y="70" class="mmsl" style="font-size:5.5px">24</text>
+          <path id="mm-s25" class="mms" d="M120,106 L135,62 A56,44 0 0,1 158,74 Z" style="stroke-width:0.8" />
+          <text x="148" y="78" class="mmsl" style="font-size:5.5px">25</text>
+          <path id="mm-s26" class="mms" d="M120,106 L158,74 A56,44 0 0,1 170,96 Z" style="stroke-width:0.8" />
+          <text x="166" y="94" class="mmsl" style="font-size:5.5px">26</text>
+          <path id="mm-s27" class="mms" d="M120,106 L170,96 A56,44 0 0,1 170,116 Z" style="stroke-width:0.8" />
+          <text x="168" y="116" class="mmsl" style="font-size:5.5px">27</text>
+          <path id="mm-s28" class="mms" d="M120,106 L170,116 A56,44 0 0,1 158,139 Z" style="stroke-width:0.8" />
+          <text x="166" y="130" class="mmsl" style="font-size:5.5px">28</text>
+          <path id="mm-s29" class="mms" d="M120,106 L158,139 A56,44 0 0,1 135,150 Z" style="stroke-width:0.8" />
+          <text x="148" y="148" class="mmsl" style="font-size:5.5px">29</text>
+          <path id="mm-s30" class="mms" d="M120,106 L135,150 A56,44 0 0,1 120,150 Z" style="stroke-width:0.8" />
+          <text x="127" y="152" class="mmsl" style="font-size:5.5px">30</text>
+          <path id="mm-s31" class="mms" d="M120,106 L120,150 A56,44 0 0,1 105,150 Z" style="stroke-width:0.8" />
+          <text x="113" y="152" class="mmsl" style="font-size:5.5px">31</text>
+          <path id="mm-s32" class="mms" d="M120,106 L105,150 A56,44 0 0,1 82,139 Z" style="stroke-width:0.8" />
+          <text x="90" y="148" class="mmsl" style="font-size:5.5px">32</text>
+          <path id="mm-s33" class="mms" d="M120,106 L82,139 A56,44 0 0,1 70,116 Z" style="stroke-width:0.8" />
+          <text x="72" y="130" class="mmsl" style="font-size:5.5px">33</text>
+          <path id="mm-s34" class="mms" d="M120,106 L70,116 A56,44 0 0,1 70,96 Z" style="stroke-width:0.8" />
+          <text x="72" y="116" class="mmsl" style="font-size:5.5px">34</text>
+          <path id="mm-s35" class="mms active" d="M120,106 L70,96 A56,44 0 0,1 82,74 Z" style="stroke-width:0.8" />
+          <text x="76" y="88" class="mmsl" style="font-size:5.5px">35</text>
+          <path id="mm-s36" class="mms" d="M120,106 L82,74 A56,44 0 0,1 105,62 Z" style="stroke-width:0.8" />
+          <text x="90" y="78" class="mmsl" style="font-size:5.5px">36</text>
+
+          <!-- W, H 레이블 (무대 좌우 홀/윙) -->
+          <text x="88" y="95" class="mm-floor-label">W</text>
+          <text x="150" y="95" class="mm-floor-label">H</text>
+        </svg>
+      </div>
+
+      <a id="view-all" href="#">좌석도 전체보기 &gt;</a>
+
+      <!-- 좌석 등급 -->
+      <div id="grade-area">
+        <div class="grade-hdr">
+          <div class="grade-hdr-title">좌석등급/잔여석 <i>i</i></div>
+          <button class="refresh-btn" id="refresh-btn">새로고침</button>
+        </div>
+        <div class="grade-item" data-zone="normal">
+          <div class="grade-sq" style="background:#c5c8cb;"></div>
+          <div class="grade-name">일반석</div>
+          <div class="grade-price">110,000원</div>
+          <div class="grade-arr">∨</div>
+        </div>
+        <div class="grade-item" data-zone="special">
+          <div class="grade-sq" style="background:#7c4dff;"></div>
+          <div class="grade-name">시야제한석</div>
+          <div class="grade-price">110,000원</div>
+          <div class="grade-arr">∨</div>
+        </div>
+      </div>
+
+      <!-- 선택 좌석 프리미엄 정보 -->
+      <div id="sel-info">
+        <div class="si-title">📍 선택 좌석 정보</div>
+        <div class="si-row" id="si-seat"><span class="l">좌석</span><span class="v">—</span></div>
+        <div class="si-row" id="si-base"><span class="l">정가</span><span class="v">—</span></div>
+        <div class="si-row" id="si-resell"><span class="l">플미가</span><span class="v">—</span></div>
+        <div class="si-row" id="si-pct"><span class="l">프리미엄</span><span class="v">—</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 하단 바 -->
+  <div id="bottom">
+    <div id="bottom-msg">
+      <span id="bottom-text">좌석을 선택해 주세요.</span>
+      <div id="bottom-toggle">∧</div>
+    </div>
+    <button id="confirm-btn">
+      좌석 선택 완료
+      <span class="arr">›</span>
+    </button>
+  </div>
+
+  <!-- 툴팁 -->
+  <div id="tt">
+    <div class="tn" id="tt-name"></div>
+    <div class="tr"><span class="tl">정가</span><span class="tv" id="tt-base"></span></div>
+    <div class="tr"><span class="tl">플미가</span><span class="tv" id="tt-resell"></span></div>
+    <div class="tr"><span class="tl">프리미엄</span><span class="tv" id="tt-pct"></span></div>
+  </div>
+
+  <script>
+    // ═══════════════════════════════════════════
+    //  멜론 티켓 실제 데이터
+    //  출처: https://ticket.melon.com/performance/index.htm?prodId=212640
+    //  크롤링 시각: 2026-02-20
+    // ═══════════════════════════════════════════
+    const PROD_DATA = {
+      prodId: 212640,
+      title: 'NCT WISH 2ND ANNIVERSARY FANMEETING 〈6명의 왕자가 나에게 청혼을 하면 곤란한데요〉',
+      venue: '잠실실내체육관',
+      dates: ['2026.02.21 (토) 14:30', '2026.02.21 (토) 20:00'],
+      grades: [
+        { name: '일반석', price: 110000, color: '#c5c8cb' },
+        { name: '시야제한석', price: 110000, color: '#7c4dff' },
+      ],
+    };
+
+    // 등급별 가격 (크롤링 데이터)
+    const BASE_PRICE = PROD_DATA.grades[0].price; // 일반석 110,000원
+    const BASE_PRICE_SP = PROD_DATA.grades[1].price; // 시야제한석 110,000원
+
+    // 우측 패널 등급 항목을 실제 데이터로 업데이트
+    (function applyScrapedData() {
+      const gradeArea = document.getElementById('grade-area');
+      // 기존 grade-item 제거 후 재생성
+      const items = gradeArea.querySelectorAll('.grade-item');
+      items.forEach((el, i) => {
+        const g = PROD_DATA.grades[i];
+        if (!g) return;
+        el.querySelector('.grade-sq').style.background = g.color;
+        el.querySelector('.grade-name').textContent = g.name;
+        el.querySelector('.grade-price').textContent = g.price.toLocaleString() + '원';
+      });
+
+      // 날짜 드롭다운 동기화
+      const sel = document.getElementById('date-sel');
+      sel.innerHTML = '';
+      PROD_DATA.dates.forEach(d => {
+        const opt = document.createElement('option');
+        opt.textContent = d;
+        sel.appendChild(opt);
+      });
+    })();
+
+    // ─── 좌석 레이아웃 정의 ───────────────────────
+
+    // format: { count, leftPad, rightPad, specialIdx[] }
+    const ROW_DEF = [
+      { count: 23, lp: 0, rp: 0, sp: [] },                        // 1
+      { count: 27, lp: 0, rp: 0, sp: [] },                        // 2
+      { count: 30, lp: 0, rp: 0, sp: [] },                        // 3
+      { count: 31, lp: 0, rp: 0, sp: [] },                        // 4
+      { count: 33, lp: 0, rp: 0, sp: [] },                        // 5
+      { count: 33, lp: 0, rp: 0, sp: [] },                        // 6
+      { count: 33, lp: 0, rp: 0, sp: [] },                        // 7
+      { count: 34, lp: 0, rp: 0, sp: [] },                        // 8
+      { count: 34, lp: 0, rp: 0, sp: [] },                        // 9
+      { count: 30, lp: 0, rp: 2, sp: [] },                        // 10
+      { count: 29, lp: 0, rp: 3, sp: [] },                        // 11
+      { count: 28, lp: 0, rp: 3, sp: [0, 1, 2, 3] },             // 12 시야제한석
+      { count: 26, lp: 0, rp: 5, sp: [0, 1, 2, 3] },             // 13 시야제한석
+      { count: 25, lp: 0, rp: 6, sp: [22, 23, 24] },             // 14 우측 시야제한
+      { count: 17, lp: 0, rp: 14, sp: [] },                        // 15
+    ];
+
+    const TOTAL_COLS = Math.max(...ROW_DEF.map(r => r.count + r.rp));
+
+    // 프리미엄 % 랜덤 생성 (좌석마다 고정)
+    function genPremium() {
+      const r = Math.random();
+      if (r < 0.22) return 0;
+      if (r < 0.40) return 10 + Math.floor(Math.random() * 9);
+      if (r < 0.58) return 20 + Math.floor(Math.random() * 9);
+      if (r < 0.76) return 30 + Math.floor(Math.random() * 19);
+      return 50 + Math.floor(Math.random() * 60);
+    }
+    function premColor(p) {
+      if (p === 0) return '#00c853';
+      if (p < 20) return '#aeea00';
+      if (p < 30) return '#ffd600';
+      if (p < 50) return '#ff6d00';
+      return '#d50000';
+    }
+    function premClass(p) {
+      if (p === 0) return 'sel-0';
+      if (p < 20) return 'sel-10';
+      if (p < 30) return 'sel-20';
+      if (p < 50) return 'sel-30';
+      return 'sel-50';
+    }
+
+    // 좌석 데이터 생성
+    const SEATS = [];
+    const table = document.getElementById('seats-table');
+
+    ROW_DEF.forEach((def, ri) => {
+      const rowArr = [];
+      const rowEl = document.createElement('div');
+      rowEl.className = 'row-line';
+
+      // 행 번호
+      const rn = document.createElement('div');
+      rn.className = 'rn';
+      rn.textContent = ri + 1;
+      rowEl.appendChild(rn);
+
+      // 왼쪽 패딩
+      for (let i = 0; i < def.lp; i++) {
+        const g = document.createElement('div');
+        g.className = 'seat gap';
+        rowEl.appendChild(g);
+      }
+
+      // 좌석
+      for (let si = 0; si < def.count; si++) {
+        const isSpecial = def.sp.includes(si);
+        const baseP = isSpecial ? BASE_PRICE_SP : BASE_PRICE;
+        const prem = isSpecial ? 0 : genPremium();
+        const resell = Math.round(baseP * (1 + prem / 100) / 1000) * 1000;
+        const seatData = {
+          row: ri + 1,
+          num: si + 1,
+          isSpecial,
+          basePrice: baseP,
+          prem,
+          resell,
+          selected: false,
+          el: null,
+        };
+
+        const el = document.createElement('div');
+        el.className = 'seat' + (isSpecial ? ' sp' : '');
+        el.title = '';
+
+        el.addEventListener('mouseenter', e => showTT(seatData, e));
+        el.addEventListener('mousemove', moveTT);
+        el.addEventListener('mouseleave', hideTT);
+        el.addEventListener('click', () => toggleSeat(seatData));
+
+        seatData.el = el;
+        rowEl.appendChild(el);
+        rowArr.push(seatData);
+        SEATS.push(seatData);
+      }
+
+      // 오른쪽 패딩
+      for (let i = 0; i < def.rp; i++) {
+        const g = document.createElement('div');
+        g.className = 'seat gap';
+        rowEl.appendChild(g);
+      }
+
+      table.appendChild(rowEl);
+    });
+
+    // ═══════════════════════════════════════════
+    //  좌석 클릭
+    // ═══════════════════════════════════════════
+    let lastSelected = null;
+
+    function toggleSeat(s) {
+      if (s.selected) {
+        s.selected = false;
+        s.el.className = 'seat' + (s.isSpecial ? ' sp' : '');
+        lastSelected = null;
+        updateBottom();
+        updateSelInfo(null);
+      } else {
+        // 이전 선택 해제 (단일 선택)
+        if (lastSelected && lastSelected !== s) {
+          lastSelected.selected = false;
+          lastSelected.el.className = 'seat' + (lastSelected.isSpecial ? ' sp' : '');
+        }
+        s.selected = true;
+        s.el.classList.add(premClass(s.prem));
+        lastSelected = s;
+        updateBottom(s);
+        updateSelInfo(s);
+      }
+    }
+
+    function updateBottom(s) {
+      const txt = document.getElementById('bottom-text');
+      const btn = document.getElementById('confirm-btn');
+      if (!s) {
+        txt.textContent = '좌석을 선택해 주세요.';
+        btn.className = '';
+        btn.innerHTML = '좌석 선택 완료 <span class="arr">›</span>';
+      } else {
+        txt.innerHTML = `<strong style="color:#69f0ae">${s.row}행 ${s.num}번</strong> 선택됨 — 플미: <strong style="color:#ffd600">${s.prem === 0 ? '±0%' : '+' + s.prem + '%'}</strong>`;
+        btn.className = 'ready';
+        btn.innerHTML = '좌석 선택 완료 <span class="arr">›</span>';
+      }
+    }
+
+    function updateSelInfo(s) {
+      const panel = document.getElementById('sel-info');
+      if (!s) { panel.style.display = 'none'; return; }
+      panel.style.display = 'block';
+      const col = premColor(s.prem);
+      document.getElementById('si-seat').innerHTML =
+        `<span class="l" style="color:#999">좌석</span><span class="v">${s.row}행 ${s.num}번</span>`;
+      document.getElementById('si-base').innerHTML =
+        `<span class="l" style="color:#999">정가</span><span class="v">${s.basePrice.toLocaleString()}원</span>`;
+      document.getElementById('si-resell').innerHTML =
+        `<span class="l" style="color:#999">플미가</span><span class="v" style="color:${col}">${s.resell.toLocaleString()}원</span>`;
+      document.getElementById('si-pct').innerHTML =
+        `<span class="l" style="color:#999">프리미엄</span><span class="v" style="color:${col};background:${col}18;padding:1px 6px;border-radius:10px">${s.prem === 0 ? '±0%' : '+' + s.prem + '%'}</span>`;
+    }
+
+    // ═══════════════════════════════════════════
+    //  툴팁
+    // ═══════════════════════════════════════════
+    const ttEl = document.getElementById('tt');
+
+    function showTT(s, e) {
+      const col = premColor(s.prem);
+      document.getElementById('tt-name').textContent =
+        s.row + '행 ' + s.num + '번' + (s.isSpecial ? ' (시야제한)' : '');
+      document.getElementById('tt-base').textContent = s.basePrice.toLocaleString() + '원';
+      document.getElementById('tt-resell').textContent = s.resell.toLocaleString() + '원';
+      const p = document.getElementById('tt-pct');
+      p.textContent = s.prem === 0 ? '±0%' : '+' + s.prem + '%';
+      p.style.color = col;
+      ttEl.classList.add('on');
+      moveTT(e);
+    }
+    function moveTT(e) {
+      let x = e.clientX + 14, y = e.clientY - 8;
+      if (x + 170 > window.innerWidth) x = e.clientX - 174;
+      if (y + 110 > window.innerHeight) y = e.clientY - 118;
+      ttEl.style.left = x + 'px'; ttEl.style.top = y + 'px';
+    }
+    function hideTT() { ttEl.classList.remove('on'); }
+
+    // ═══════════════════════════════════════════
+    //  미니맵 섹션 클릭
+    // ═══════════════════════════════════════════
+    document.querySelectorAll('.mms').forEach(el => {
+      el.addEventListener('click', () => {
+        document.querySelectorAll('.mms').forEach(e => e.classList.remove('active'));
+        el.classList.add('active');
+        const sNum = el.id.replace('mm-s', '');
+        document.getElementById('zone-label').innerHTML =
+          `현재 보고 계신 구역은 < strong > 3 층 ${sNum} 구역</strong > 입니다.`;
+      });
+    });
+
+    // ═══════════════════════════════════════════
+    //  미니맵 줌 (좌석 크기 조절)
+    // ═══════════════════════════════════════════
+    let seatSize = 17;
+    const MIN_SZ = 12, MAX_SZ = 26;
+
+    function resizeSeats(sz) {
+      seatSize = Math.min(MAX_SZ, Math.max(MIN_SZ, sz));
+      document.querySelectorAll('.seat:not(.gap),.seat.gap').forEach(el => {
+        el.style.width = seatSize + 'px';
+        el.style.height = (seatSize - 1) + 'px';
+      });
+      document.querySelectorAll('.row-line').forEach(el => {
+        el.style.gap = (seatSize <= 14 ? 1 : 2) + 'px';
+      });
+      document.getElementById('seats-table').style.gap = (seatSize <= 14 ? 1 : 2) + 'px';
+    }
+
+    document.getElementById('mm-zin').addEventListener('click', () => resizeSeats(seatSize + 3));
+    document.getElementById('mm-zout').addEventListener('click', () => resizeSeats(seatSize - 3));
+
+    // 마우스 휠로 좌석 확대/축소
+    document.getElementById('seat-area').addEventListener('wheel', e => {
+      e.preventDefault();
+      resizeSeats(seatSize + (e.deltaY < 0 ? 2 : -2));
+    }, { passive: false });
+
+    // 새로고침 버튼
+    document.getElementById('refresh-btn').addEventListener('click', () => {
+      btn.classList.add('ready'); // just visual
+    });
+
+    // 확인 버튼
+    document.getElementById('confirm-btn').addEventListener('click', () => {
+      if (!lastSelected) { alert('좌석을 선택해 주세요.'); }
+      else {
+        const s = lastSelected;
+        alert(`선택 완료!\n좌석: ${s.row}행 ${s.num} 번\n정가: ${BASE_PRICE.toLocaleString()} 원\n플미가: ${s.resell.toLocaleString()} 원(+${s.prem} %)`);
+      }
+    });
+
+    // 하단 토글
+    document.getElementById('bottom-toggle').addEventListener('click', () => {
+      const t = document.getElementById('bottom-toggle');
+      t.textContent = t.textContent === '∧' ? '∨' : '∧';
+    });
+  </script>
+</body>
+
+</html>

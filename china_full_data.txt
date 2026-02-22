@@ -1,0 +1,3002 @@
+[
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "9000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "8000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 2열",
+    "grade_floor": "플로어 명의변경",
+    "price": "5500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 2열",
+    "grade_floor": "플로어 명의변경",
+    "price": "4000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 3열",
+    "grade_floor": "플로어 명의변경",
+    "price": "5000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 3열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 4열",
+    "grade_floor": "플로어 명의변경",
+    "price": "4000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 4열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 5열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 6열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 6열",
+    "grade_floor": "플로어 명의변경",
+    "price": "7300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 7열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "★구역 6열",
+    "grade_floor": "플로어 배송",
+    "price": "7300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "9800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "8500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 2열",
+    "grade_floor": "플로어 명의변경",
+    "price": "6000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 2열",
+    "grade_floor": "플로어 명의변경",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 3열",
+    "grade_floor": "플로어 명의변경",
+    "price": "5500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 3열",
+    "grade_floor": "플로어 명의변경",
+    "price": "4000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 4열",
+    "grade_floor": "플로어 명의변경",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 4열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 5열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 5열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 6열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 7열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 8열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "★구역 6열",
+    "grade_floor": "플로어 배송",
+    "price": "7300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "5500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 2열",
+    "grade_floor": "플로어 명의변경",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 3열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 4열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 5열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 6열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 11열",
+    "grade_floor": "플로어 배송",
+    "price": "4650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 8열",
+    "grade_floor": "플로어 배송",
+    "price": "6800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 3열",
+    "grade_floor": "플로어 현장수령",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "5500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 2열",
+    "grade_floor": "플로어 명의변경",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 3열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 4열",
+    "grade_floor": "플로어 명의변경",
+    "price": "3000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 5열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 6열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 6열",
+    "grade_floor": "플로어 배송",
+    "price": "7800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 8열",
+    "grade_floor": "플로어 배송",
+    "price": "6800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 6열",
+    "grade_floor": "플로어 현장수령",
+    "price": "4000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "5500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 7열",
+    "grade_floor": "플로어 현장수령",
+    "price": "4000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 6열",
+    "grade_floor": "플로어 현장수령",
+    "price": "4200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 8열",
+    "grade_floor": "플로어 배송",
+    "price": "5100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "W구역 6열",
+    "grade_floor": "플로어 명의변경",
+    "price": "2600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "W구역 11열",
+    "grade_floor": "플로어 배송",
+    "price": "6300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "W구역 6열",
+    "grade_floor": "플로어 현장수령",
+    "price": "3700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "9000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 2열",
+    "grade_floor": "플로어 명의변경",
+    "price": "7000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 9열",
+    "grade_floor": "플로어 배송",
+    "price": "6800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 1열",
+    "grade_floor": "플로어 명의변경",
+    "price": "9500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 2열",
+    "grade_floor": "플로어 명의변경",
+    "price": "8000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 16열",
+    "grade_floor": "플로어 배송",
+    "price": "6800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 8열",
+    "grade_floor": "플로어 현장수령",
+    "price": "4300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 11열",
+    "grade_floor": "플로어 배송",
+    "price": "4350 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 10열",
+    "grade_floor": "플로어 배송",
+    "price": "6300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 7열",
+    "grade_floor": "플로어 현장수령",
+    "price": "4200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 19열",
+    "grade_floor": "플로어 배송",
+    "price": "5600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 13열",
+    "grade_floor": "플로어 배송",
+    "price": "7300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 2열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 2열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 2열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 2열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 2열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 2열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 3열",
+    "grade_floor": "지정석",
+    "price": "1500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 3열",
+    "grade_floor": "지정석",
+    "price": "1500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 3열",
+    "grade_floor": "지정석",
+    "price": "1500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역 3열",
+    "grade_floor": "지정석",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역 3열",
+    "grade_floor": "지정석",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역 4열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "15구역 8열",
+    "grade_floor": "지정석",
+    "price": "1500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "16구역 4열",
+    "grade_floor": "지정석",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "17구역 2열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "10구역 1열",
+    "grade_floor": "지정석",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "10구역 1열",
+    "grade_floor": "지정석",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "10구역 2열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역 3열",
+    "grade_floor": "지정석",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역 3열",
+    "grade_floor": "지정석",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "12구역 5열",
+    "grade_floor": "지정석",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "16구역 4열",
+    "grade_floor": "지정석",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "17구역 3열",
+    "grade_floor": "지정석",
+    "price": "1500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "17구역 3열",
+    "grade_floor": "지정석",
+    "price": "1500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "1구역 1열",
+    "grade_floor": "지정석",
+    "price": "2550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "8구역 5열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역 6열",
+    "grade_floor": "지정석",
+    "price": "2250 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 6열",
+    "grade_floor": "지정석",
+    "price": "2500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역 11열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역 13열",
+    "grade_floor": "지정석",
+    "price": "2550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "15구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "18구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 2열",
+    "grade_floor": "지정석",
+    "price": "1800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 6열",
+    "grade_floor": "지정석",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "1구역 3열",
+    "grade_floor": "지정석",
+    "price": "2250 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "9구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "9구역 12열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "10구역 11열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "10구역 12열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "10구역 14열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역 15열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "12구역 13열",
+    "grade_floor": "지정석",
+    "price": "2250 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "16구역 14열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "17구역 13열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "18구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "33구역 4열",
+    "grade_floor": "지정석",
+    "price": "1800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 11열",
+    "grade_floor": "배송",
+    "price": "4650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 11열",
+    "grade_floor": "배송",
+    "price": "4350 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "4200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "5100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 21열",
+    "grade_floor": "배송",
+    "price": "2900 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 10열",
+    "grade_floor": "배송",
+    "price": "4600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "5100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 8열",
+    "grade_floor": "배송",
+    "price": "4600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 5열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 7열",
+    "grade_floor": "배송",
+    "price": "4350 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 7열",
+    "grade_floor": "배송",
+    "price": "4350 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 6열",
+    "grade_floor": "배송",
+    "price": "4600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 4열",
+    "grade_floor": "배송",
+    "price": "3850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 6열",
+    "grade_floor": "배송",
+    "price": "4600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 11열",
+    "grade_floor": "배송",
+    "price": "3600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 10열",
+    "grade_floor": "배송",
+    "price": "4000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 5열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 11열",
+    "grade_floor": "배송",
+    "price": "3500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 6열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 11열",
+    "grade_floor": "배송",
+    "price": "3600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 5열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 6열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 7열",
+    "grade_floor": "배송",
+    "price": "4350 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "W구역 6열",
+    "grade_floor": "배송",
+    "price": "6150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 11열",
+    "grade_floor": "배송",
+    "price": "3600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 12열",
+    "grade_floor": "배송",
+    "price": "3500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 12열",
+    "grade_floor": "배송",
+    "price": "3450 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 12열",
+    "grade_floor": "배송",
+    "price": "3400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 12열",
+    "grade_floor": "배송",
+    "price": "3400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 12열",
+    "grade_floor": "배송",
+    "price": "3400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "I구역 14열",
+    "grade_floor": "배송",
+    "price": "3100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "5100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 15열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 11열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "4800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 5-10열",
+    "grade_floor": "배송",
+    "price": "5700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 6열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 9열",
+    "grade_floor": "배송",
+    "price": "4200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 9열",
+    "grade_floor": "배송",
+    "price": "4200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 8열",
+    "grade_floor": "배송",
+    "price": "4100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역 8열",
+    "grade_floor": "배송",
+    "price": "4000 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 2열",
+    "grade_floor": "배송",
+    "price": "6150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 4열",
+    "grade_floor": "배송",
+    "price": "5850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 5열",
+    "grade_floor": "배송",
+    "price": "4200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역 12열",
+    "grade_floor": "배송",
+    "price": "3500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "13구역 10열",
+    "grade_floor": "배송",
+    "price": "2500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "15구역 10열",
+    "grade_floor": "배송",
+    "price": "2500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 10열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 5열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 10열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 16열",
+    "grade_floor": "배송",
+    "price": "2550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "13구역 16열",
+    "grade_floor": "배송",
+    "price": "2550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "13구역 17열",
+    "grade_floor": "배송",
+    "price": "2550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 8열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 9열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역 14열",
+    "grade_floor": "배송",
+    "price": "1550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "12구역 2열",
+    "grade_floor": "배송",
+    "price": "1800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "12구역 14열",
+    "grade_floor": "배송",
+    "price": "1550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "12구역 15열",
+    "grade_floor": "배송",
+    "price": "1550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "배송",
+    "price": "1850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "배송",
+    "price": "1850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 6열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 10열",
+    "grade_floor": "배송",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 15열",
+    "grade_floor": "배송",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 5열",
+    "grade_floor": "배송",
+    "price": "1850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 7열",
+    "grade_floor": "배송",
+    "price": "1850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 1열",
+    "grade_floor": "배송",
+    "price": "1850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "35구역 16열",
+    "grade_floor": "배송",
+    "price": "2800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "35구역 11열",
+    "grade_floor": "배송",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "18구역 5열",
+    "grade_floor": "배송",
+    "price": "2200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 11열",
+    "grade_floor": "배송",
+    "price": "2350 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "18구역 11열",
+    "grade_floor": "배송",
+    "price": "2550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 2열",
+    "grade_floor": "배송",
+    "price": "4200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 7열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 7열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 2열",
+    "grade_floor": "배송",
+    "price": "4250 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 6열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 5열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 6열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 8열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 2열",
+    "grade_floor": "배송",
+    "price": "4250 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 5열",
+    "grade_floor": "배송",
+    "price": "5200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 5열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 5열",
+    "grade_floor": "배송",
+    "price": "5850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 6열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 8열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "4350 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 9열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "5400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "W구역 4열",
+    "grade_floor": "배송",
+    "price": "5400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "W구역 5열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "W구역 6열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 8열",
+    "grade_floor": "배송",
+    "price": "5200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 5열",
+    "grade_floor": "배송",
+    "price": "5850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 5열",
+    "grade_floor": "배송",
+    "price": "5850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 8열",
+    "grade_floor": "배송",
+    "price": "4850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 8열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 6열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 2열",
+    "grade_floor": "배송",
+    "price": "4600 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 7열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 7열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 3열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 7열",
+    "grade_floor": "배송",
+    "price": "4400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 8열",
+    "grade_floor": "배송",
+    "price": "5800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 4열",
+    "grade_floor": "배송",
+    "price": "5400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 4열",
+    "grade_floor": "배송",
+    "price": "5400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "5850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "5850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 8열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 8열",
+    "grade_floor": "배송",
+    "price": "4700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 7열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 5열",
+    "grade_floor": "배송",
+    "price": "4450 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역 10열",
+    "grade_floor": "배송",
+    "price": "4200 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 4열",
+    "grade_floor": "배송",
+    "price": "5850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "H구역 4열",
+    "grade_floor": "배송",
+    "price": "5400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "W구역 4열",
+    "grade_floor": "배송",
+    "price": "5400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 7열",
+    "grade_floor": "배송",
+    "price": "4750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역 7열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "13구역 12열",
+    "grade_floor": "배송",
+    "price": "2800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "14구역 10열",
+    "grade_floor": "배송",
+    "price": "2500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "13구역 17열",
+    "grade_floor": "배송",
+    "price": "2500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "16구역 17열",
+    "grade_floor": "배송",
+    "price": "2500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "31구역 4열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "32구역 13열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "13구역 12열",
+    "grade_floor": "배송",
+    "price": "2800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "13구역 18열",
+    "grade_floor": "배송",
+    "price": "2500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "30구역 11열",
+    "grade_floor": "배송",
+    "price": "1550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "30구역 11열",
+    "grade_floor": "배송",
+    "price": "1550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역 13열",
+    "grade_floor": "배송",
+    "price": "1550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "33구역 13열",
+    "grade_floor": "배송",
+    "price": "1550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "30구역 10열",
+    "grade_floor": "배송",
+    "price": "1850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "31구역 10열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "31구역 7열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "31구역 9열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "32구역 10열",
+    "grade_floor": "배송",
+    "price": "1750 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "33구역 2열",
+    "grade_floor": "배송",
+    "price": "1850 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "33구역 3열",
+    "grade_floor": "배송",
+    "price": "1700 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "30구역 2열",
+    "grade_floor": "배송",
+    "price": "2800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "35구역 12열",
+    "grade_floor": "배송",
+    "price": "2550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "35구역 17열",
+    "grade_floor": "배송",
+    "price": "2550 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역 11열",
+    "grade_floor": "배송",
+    "price": "3150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "12구역 13열",
+    "grade_floor": "배송",
+    "price": "3150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "13구역 8열",
+    "grade_floor": "배송",
+    "price": "3650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역 5열",
+    "grade_floor": "배송",
+    "price": "4350 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "15구역 14열",
+    "grade_floor": "배송",
+    "price": "2650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "16구역 5열",
+    "grade_floor": "배송",
+    "price": "3650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 6열",
+    "grade_floor": "배송",
+    "price": "4300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 9열",
+    "grade_floor": "배송",
+    "price": "3650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역 6열",
+    "grade_floor": "배송",
+    "price": "4300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "15구역 11열",
+    "grade_floor": "배송",
+    "price": "3900 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역 14열",
+    "grade_floor": "배송",
+    "price": "3650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "16구역 6열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역 14열",
+    "grade_floor": "배송",
+    "price": "2650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "12구역 18열",
+    "grade_floor": "배송",
+    "price": "2400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "13구역 12열",
+    "grade_floor": "배송",
+    "price": "2900 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "14구역 7열",
+    "grade_floor": "배송",
+    "price": "4100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "15구역 7열",
+    "grade_floor": "배송",
+    "price": "4100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "16구역 7열",
+    "grade_floor": "배송",
+    "price": "4100 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "14구역 7열",
+    "grade_floor": "배송",
+    "price": "4800 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역 6열",
+    "grade_floor": "배송",
+    "price": "4300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역 12열",
+    "grade_floor": "배송",
+    "price": "3650 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "16구역 14열",
+    "grade_floor": "배송",
+    "price": "3400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "14구역 10열",
+    "grade_floor": "배송",
+    "price": "4500 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "16구역 15열",
+    "grade_floor": "배송",
+    "price": "3400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "14구역 11열",
+    "grade_floor": "배송",
+    "price": "3900 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "17구역 6열",
+    "grade_floor": "배송",
+    "price": "4300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "16구역 15열",
+    "grade_floor": "배송",
+    "price": "3400 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 1열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 4열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 10열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 13열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 1열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 4열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 7열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 13열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 1열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 4열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 10열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 13열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 1열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 4열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 7열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 13열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 1열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 4열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 10열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 13열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 1열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 4열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 7열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 13열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 1열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 4열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 10열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 13열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 1열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 4열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 7열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 13열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 1열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 4열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 10열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 13열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 1열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 4열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 7열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 13열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 1열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 4열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 10열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 13열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 1열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 4열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 7열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 13열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 1열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 4열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 7열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 10열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 13열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 1열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 3열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 4열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 5열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 6열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 7열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 8열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 9열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 10열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 11열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역 12열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역 13열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역 14열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역 15열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "29구역 1열",
+    "grade_floor": "지정석",
+    "price": "2150 RMB"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역 2열",
+    "grade_floor": "지정석",
+    "price": "1300 RMB"
+  }
+]

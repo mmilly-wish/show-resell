@@ -1,0 +1,728 @@
+[
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "30구역13열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "390,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역8열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "390,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "35구역10열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "400,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "31구역13열",
+    "grade_floor": "일반석3층 (3F)현장",
+    "price": "440,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "37구역6열",
+    "grade_floor": "시야제한석3층 (3F)",
+    "price": "440,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "36구역6열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "445,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역13열",
+    "grade_floor": "일반석3층 (3F)왼블 사진O",
+    "price": "450,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "37구역3열",
+    "grade_floor": "시야제한석3층 (3F)",
+    "price": "450,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "31구역12열",
+    "grade_floor": "일반석3층 (3F)중앙",
+    "price": "450,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "35구역3열",
+    "grade_floor": "일반석3층 (3F)사진 O",
+    "price": "450,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "32구역11열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "450,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역6열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "450,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "31구역12열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "450,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "31구역10열",
+    "grade_floor": "일반석3층 (3F)사진O 극중앙 밤공",
+    "price": "460,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "33구역15열",
+    "grade_floor": "일반석3층 (3F)현장o",
+    "price": "470,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역5열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "480,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "34구역6열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "480,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "34구역11열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "500,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "32구역15열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "500,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "1구역14열열",
+    "grade_floor": "시야제한석2층 (2F)",
+    "price": "500,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역9열",
+    "grade_floor": "일반석3층 (3F)1n",
+    "price": "500,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "35구역11열",
+    "grade_floor": "일반석3층 (3F)당일 거래",
+    "price": "500,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "35구역4열",
+    "grade_floor": "일반석3층 (3F)사진O",
+    "price": "500,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "35구역12열",
+    "grade_floor": "일반석3층 (3F)사진o",
+    "price": "500,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역4열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "510,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "8구역10열",
+    "grade_floor": "시야제한석2층 (2F)극왼블",
+    "price": "510,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "31구역2열",
+    "grade_floor": "일반석3층 (3F)실질 1열",
+    "price": "520,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역4열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "520,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "32구역5열",
+    "grade_floor": "일반석3층 (3F)사진O 극중앙 낮공",
+    "price": "520,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "33구역11열",
+    "grade_floor": "일반석3층 (3F)사진o",
+    "price": "530,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "32구역7열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "530,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "34구역4열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "540,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "8구역16열",
+    "grade_floor": "시야제한석2층 (2F)",
+    "price": "550,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "33구역8열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "550,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "1구역15열",
+    "grade_floor": "시야제한석2층 (2F)오블, 사진O",
+    "price": "550,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "8구역12열",
+    "grade_floor": "시야제한석2층 (2F)1n",
+    "price": "550,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "33구역2열",
+    "grade_floor": "일반석3층 (3F)중앙에 가까움",
+    "price": "550,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "29구역5열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "550,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "17구역14열",
+    "grade_floor": "일반석2층 (2F)사진 O",
+    "price": "550,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "28구역9열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "550,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "27구역2열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "560,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "16구역15열",
+    "grade_floor": "일반석2층 (2F)실질 8열",
+    "price": "560,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역4열",
+    "grade_floor": "일반석3층 (3F)현장거래",
+    "price": "570,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "9구역15열",
+    "grade_floor": "시야제한석2층 (2F)",
+    "price": "580,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역16열",
+    "grade_floor": "일반석2층 (2F)10구역쪽",
+    "price": "580,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "16구역10열",
+    "grade_floor": "일반석2층 (2F)실질 7열",
+    "price": "580,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "17구역14열",
+    "grade_floor": "일반석2층 (2F)5이하",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역6열",
+    "grade_floor": "일반석2층 (2F)현장양도",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역8열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "9구역9열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "8구역3열",
+    "grade_floor": "시야제한석2층 (2F)극왼",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "35구역8열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "34구역5열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "33구역9열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "28구역9열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "17구역11열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "600,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "13구역16열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "620,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "12구역17열",
+    "grade_floor": "일반석2층 (2F)단석",
+    "price": "630,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "12구역16열",
+    "grade_floor": "일반석2층 (2F)실질9열 단석",
+    "price": "630,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "17구역10열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "640,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역8열",
+    "grade_floor": "시야제한석2층 (2F)",
+    "price": "650,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역18 실질n열",
+    "grade_floor": "일반석2층 (2F)사진ㅇ",
+    "price": "670,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역10열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "680,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역12열",
+    "grade_floor": "일반석2층 (2F)실질 10열이내",
+    "price": "690,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역15열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "36구역15열",
+    "grade_floor": "시야제한석3층 (3F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역8열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "14구역6열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "17구역2열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "15구역17열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "9구역14열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역14열",
+    "grade_floor": "일반석2층 (2F)사진O중앙에 가까움",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "18구역5열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "12구역14열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역2열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역5열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "12구역16열",
+    "grade_floor": "일반석2층 (2F)GLOBAL OK",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역10열열",
+    "grade_floor": "일반석2층 (2F)중앙자리",
+    "price": "700,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "16구역2열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "720,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역5열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "720,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역8열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "750,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "34구역8열",
+    "grade_floor": "일반석3층 (3F)사진 o",
+    "price": "750,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "11구역17열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "750,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "14구역12열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "760,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "16구역13열",
+    "grade_floor": "일반석2층 (2F)사진 O",
+    "price": "770,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "12구역17열",
+    "grade_floor": "일반석2층 (2F)통로 쪽 자리",
+    "price": "770,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "16구역2열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "780,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "30구역7열",
+    "grade_floor": "일반석3층 (3F)",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "15구역실질 2열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "18구역6열",
+    "grade_floor": "일반석2층 (2F)시야좋아용",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역12열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역13열",
+    "grade_floor": "일반석2층 (2F)오른쪽",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "16구역9열",
+    "grade_floor": "일반석2층 (2F)왼블 실질 5열",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "12구역13열",
+    "grade_floor": "일반석2층 (2F)사진 있음 실질7열",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "13구역12열",
+    "grade_floor": "일반석2층 (2F)실질 9열 중앙쪽",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "17구역12열",
+    "grade_floor": "일반석2층 (2F)오블",
+    "price": "800,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "8구역1열",
+    "grade_floor": "시야제한석2층 (2F)",
+    "price": "880,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "10구역11열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "900,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "14구역4열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "900,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역19열",
+    "grade_floor": "일반석플로어석 (Floor)",
+    "price": "900,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역11열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "900,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역7열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "900,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "9구역3열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "910,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역21열",
+    "grade_floor": "일반석플로어석 (Floor)사진O",
+    "price": "950,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "S구역19열",
+    "grade_floor": "일반석플로어석 (Floor)",
+    "price": "950,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "13구역실질1열",
+    "grade_floor": "일반석2층 (2F)사진O",
+    "price": "950,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "H구역7열",
+    "grade_floor": "일반석플로어석 (Floor)",
+    "price": "960,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "별구역8열",
+    "grade_floor": "일반석플로어석 (Floor)현장",
+    "price": "990,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역9열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "990,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "15구역8열 실질3열",
+    "grade_floor": "일반석2층 (2F)사진o",
+    "price": "990,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역18열",
+    "grade_floor": "일반석플로어석 (Floor)사진o 구역내 오블",
+    "price": "990,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역20열",
+    "grade_floor": "일반석플로어석 (Floor)재배송",
+    "price": "990,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역17열",
+    "grade_floor": "일반석플로어석 (Floor)사진o",
+    "price": "990,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "17구역11열",
+    "grade_floor": "일반석2층 (2F)여성명의",
+    "price": "990,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "9구역4열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "999,000원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "S구역14열",
+    "grade_floor": "일반석플로어석 (Floor)극왼블",
+    "price": "999,000원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "14구역15열",
+    "grade_floor": "일반석2층 (2F)현장전달",
+    "price": "999,900원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "9구역1열",
+    "grade_floor": "일반석2층 (2F)",
+    "price": "999,900원"
+  },
+  {
+    "datetime": "2026.02.21 14:30",
+    "location": "10구역1열",
+    "grade_floor": "일반석2층 (2F)좌석 내 왼블",
+    "price": "999,900원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "I구역22열",
+    "grade_floor": "일반석플로어석 (Floor)",
+    "price": "999,900원"
+  },
+  {
+    "datetime": "2026.02.21 20:00",
+    "location": "11구역9열",
+    "grade_floor": "일반석2층 (2F)실질2~3열",
+    "price": "999,900원"
+  }
+]
