@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>멜론 티켓</title>
+  <title>위시 플미 레이더</title>
+  <link rel="icon" href="favicon.png" type="image/png">
   <style>
     * {
       margin: 0;
@@ -38273,32 +38274,68 @@
         }
       }
 
+      var resellEl = document.getElementById('si-resell');
+      var pctEl = document.getElementById('si-pct');
+
+      if (m && c.tickets && c.tickets.length > 0) {
+        if (resellEl) {
+          resellEl.style.display = '';
+          var priceVal = resellEl.querySelector('.v');
+          if (c.maxPrice && c.maxPrice !== m) {
+            priceVal.textContent = m.toLocaleString() + ' ~ ' + c.maxPrice.toLocaleString() + '원';
+          } else {
+            priceVal.textContent = m.toLocaleString() + '원';
+          }
+        }
+        if (pctEl) {
+          pctEl.style.display = '';
+          var pctVal = pctEl.querySelector('.v');
+          if (c.maxPremium && c.maxPremium !== p) {
+            pctVal.textContent = '+' + p + '% ~ +' + c.maxPremium + '%';
+          } else {
+            pctVal.textContent = '+' + p + '%';
+          }
+          pctVal.style.color = '#ffd740';
+          pctVal.style.fontWeight = 'bold';
+        }
+      } else {
+        if (resellEl) {
+          resellEl.style.display = '';
+          resellEl.querySelector('.v').textContent = '—';
+        }
+        if (pctEl) {
+          pctEl.style.display = '';
+          pctEl.querySelector('.v').textContent = '—';
+        }
+      }
+
       var listContainer = document.getElementById('si-ticket-list');
       if (!listContainer) {
         listContainer = document.createElement('div');
         listContainer.id = 'si-ticket-list';
-        listContainer.style.marginTop = '10px';
-        listContainer.style.borderTop = '1px solid #333';
+        listContainer.style.marginTop = '12px';
+        listContainer.style.borderTop = '1px solid #E0E0E0';
         listContainer.style.paddingTop = '10px';
-        document.getElementById('sel-info').appendChild(listContainer);
-        var resellEl = document.getElementById('si-resell');
-        var pctEl = document.getElementById('si-pct');
-        if (resellEl) resellEl.style.display = 'none';
-        if (pctEl) pctEl.style.display = 'none';
+        siEl.appendChild(listContainer);
       }
       listContainer.innerHTML = '';
 
       if (c.tickets && c.tickets.length > 0) {
+        var listHdr = document.createElement('div');
+        listHdr.style.fontSize = '11px';
+        listHdr.style.color = '#888';
+        listHdr.style.marginBottom = '8px';
+        listHdr.textContent = '상세 매물 내역 (' + c.tickets.length + ')';
+        listContainer.appendChild(listHdr);
+
         c.tickets.forEach(function (t) {
           var row = document.createElement('div');
           row.className = 'si-row';
-          var badge = t.source === 'kr' ? '<span style="color:#00e676; font-weight:bold;">[kr]</span>' : '<span style="color:#ff5252; font-weight:bold;">[cn]</span>';
+          var badge = t.source === 'kr' ? '<span style="color:#00e676; font-weight:bold;">[KR]</span>' : '<span style="color:#ff5252; font-weight:bold;">[CN]</span>';
           var tP = Math.round(((t.price - base) / base) * 100);
-          row.innerHTML = '<span class="l">' + badge + ' +' + tP + '%</span><span class="v" style="color:#555;">' + (t.price).toLocaleString() + '\uC6D0</span>';
+          row.innerHTML = '<span class="l">' + badge + ' +' + tP + '%</span><span class="v" style="color:#333; font-weight:bold;">' + (t.price).toLocaleString() + '원</span>';
           listContainer.appendChild(row);
         });
-      } else {
-        listContainer.innerHTML = '<div class="si-row"><span class="v">\u2014</span></div>';
       }
     }
 
