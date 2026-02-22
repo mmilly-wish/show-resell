@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=1126" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>멜론 티켓</title>
   <style>
     * {
@@ -731,7 +731,411 @@
     #tt .tv {
       font-weight: 600;
     }
+
+    /* ═══════════════════════════════════════════════════
+       📱 MOBILE SANDWICH LAYOUT  (@media max-width:768px)
+       TOP: minimap nav  |  MID: seats  |  BOT: bottom sheet
+       데스크톱(769px+)은 완전히 독립 – 절대 건드리지 않음
+    ═══════════════════════════════════════════════════ */
+    @media (max-width: 768px) {
+
+      /* ── 기본: 가로 스크롤 봉쇄 ── */
+      * {
+        box-sizing: border-box !important;
+      }
+
+      html,
+      body {
+        min-width: auto !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+        height: auto !important;
+        background-color: #f4f4f4 !important;
+      }
+
+      /* ── #main: 세로 1-column ── */
+      #main {
+        display: flex !important;
+        flex-direction: column !important;
+        min-width: auto !important;
+        width: 100% !important;
+        height: auto !important;
+        overflow-x: hidden !important;
+        overflow-y: visible !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+        position: relative;
+        background-color: #f4f4f4 !important;
+      }
+
+      /* 불필요한 구역 드롭다운 및 목록 제거 */
+      #mob-zone-selector,
+      #grade-area {
+        display: none !important;
+      }
+
+      /* ════════════════════════════════════════
+         [TOP LAYER] #mob-nav
+         JS가 생성하는 sticky 미니맵+구역선택 컨테이너
+         (JS DOM reorder: #mm-area + #grade-area)
+      ════════════════════════════════════════ */
+      #mob-nav {
+        position: sticky;
+        top: 0;
+        z-index: 200;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+      }
+
+      /* zone-item 활성/비활성 구분 (Light Theme) */
+      #mob-nav .zone-item {
+        background: transparent !important;
+        border-bottom: 1px solid #f0f0f0 !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        color: #444 !important;
+      }
+
+      #mob-nav .zone-item.active,
+      #mob-nav .zone-item:hover {
+        background: #eef2ff !important;
+        color: #3d5afe !important;
+      }
+
+      /* grade-item (Light Theme) */
+      #mob-nav .grade-item {
+        background: transparent !important;
+        border-bottom: 1px solid #f5f5f5 !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        color: #333 !important;
+      }
+
+      #mob-nav .grade-item:hover {
+        background: #fafafa !important;
+      }
+
+      /* 미니맵 – 가로로 넓게, 높이 최소화 */
+      #mob-nav #mm-area {
+        width: 100% !important;
+        padding: 10px 10px 10px !important;
+        border-bottom: 1px solid #EEEEEE;
+      }
+
+      #mob-nav #mm-scroll {
+        width: 100% !important;
+        height: 100px !important;
+        margin: 0 !important;
+      }
+
+      #mob-nav #mm-svg {
+        width: 100% !important;
+        height: 100px !important;
+      }
+
+      /* 구역 선택 – 아코디언 드롭다운 그대로 재활용 */
+      #mob-nav #grade-area {
+        width: 100% !important;
+        overflow-y: visible !important;
+        background: transparent !important;
+        max-height: 40vh;
+        overflow-y: auto;
+      }
+
+      /* zone-item 모바일 터치 크기 */
+      #mob-nav .zone-item {
+        padding: 8px 14px !important;
+        font-size: 13px !important;
+      }
+
+      #mob-nav .grade-item {
+        padding: 8px 14px !important;
+      }
+
+      /* ════════════════════════════════════════
+         [HEADER] 상단 타이틀 바 – 슬림 & 우선순위 최적화
+      ════════════════════════════════════════ */
+      .box_seat_top {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+        height: auto !important;
+        min-height: 0;
+        padding: 16px 20px 14px !important;
+        background-color: #FFFFFF !important;
+        border-bottom: 1px solid #E0E0E0 !important;
+        gap: 12px !important;
+        border-radius: 0 !important;
+      }
+
+      .box_seat_top .tit_seat {
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        line-height: 1.4 !important;
+        color: #333 !important;
+        width: 100% !important;
+        white-space: normal !important;
+        word-break: break-all !important;
+        /* 기존의 생략 (...) 효과 제거 */
+        overflow: visible !important;
+        text-overflow: clip !important;
+        max-width: none !important;
+        margin: 0 !important;
+      }
+
+      .box_seat_top .tit_s {
+        display: inline-block;
+        font-size: inherit !important;
+        font-weight: inherit !important;
+        max-width: none !important;
+        white-space: normal !important;
+        text-overflow: clip !important;
+        color: inherit !important;
+        margin: 0 !important;
+      }
+
+      .box_seat_top .seat_wrap_sel {
+        width: 100% !important;
+        display: block !important;
+      }
+
+      .box_seat_top select.sel_cate {
+        font-size: 13px !important;
+        width: 100%;
+        border-radius: 6px;
+        padding: 8px 10px;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #fff !important;
+        border: 1px solid #E0E0E0 !important;
+      }
+
+      /* ════════════════════════════════════════
+         [MID LAYER] 좌석 영역 – 스케일 피팅
+      ════════════════════════════════════════ */
+      .wrap_select {
+        flex: none !important;
+        width: 100vw !important;
+        overflow: visible !important;
+      }
+
+      /* 무대 레이블 */
+      .box_stage {
+        padding: 16px 0 4px !important;
+      }
+
+      .box_stage .stage span {
+        width: 72vw !important;
+        height: 28px !important;
+        line-height: 28px !important;
+        font-size: 12px !important;
+      }
+
+      #zone-label-wrap {
+        font-size: 11px !important;
+      }
+
+      #zone-stat {
+        font-size: 10px !important;
+      }
+
+      /* 좌석 스크롤 영역 – 가로스크롤 제거, SVG width 피팅 */
+      .stage_img {
+        overflow: hidden !important;
+        width: 100% !important;
+        background-color: #f4f4f4 !important;
+      }
+
+      #seats-scroll {
+        overflow: auto !important;
+        width: 100vw !important;
+        padding: 6px 0 26vh 0 !important;
+        /* 여백 최소화(bottom sheet 없을 때 공백 줄임) */
+        display: flex !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        flex: 1 !important;
+      }
+
+      /* SVG: viewBox 비율 유지하며 100vw fit */
+      #main-seats-svg {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        touch-action: pan-x pan-y !important;
+        box-sizing: border-box !important;
+      }
+
+      /* 모바일 좌석 칩 디자인 조정 */
+      .seat {
+        rx: 1.5px !important;
+        ry: 1.5px !important;
+        border-radius: 1.5px !important;
+      }
+
+      /* 밀도 범례 – .box_stage 내 위치 (흐름에 따라 배치) */
+      /* 밀도 범례 – 모바일 통계형 슬림 레이아웃 (헤더 내부 위치) */
+      #density-legend {
+        position: static !important;
+        margin-top: 4px !important;
+        padding: 4px 0 !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+      }
+
+      /* 범례가 .box_stage 가 아닌 .box_seat_top으로 이동하므로 관련 구분선 제거,
+         대신 box_seat_top 하단에 줄을 그엇음. */
+
+      #density-legend .dl-title {
+        font-size: 10px !important;
+        font-weight: 700 !important;
+        color: #444 !important;
+        margin: 0 !important;
+      }
+
+      #density-legend .dl-bar-wrap {
+        display: flex !important;
+        align-items: center !important;
+      }
+
+      #density-legend .dl-bar {
+        width: 90px !important;
+        height: 6px !important;
+        /* 연한 오렌지 -> 다크 레드 그라데이션 */
+        background: linear-gradient(to right, #FFCC80, #E53935) !important;
+        border-radius: 3px !important;
+      }
+
+      #density-legend .dl-label {
+        font-size: 8px !important;
+        color: #888 !important;
+      }
+
+      /* 하단 '좌석을 선택하세요' 바 – 모바일 숨김 */
+      .wrap_seat_box {
+        display: none !important;
+      }
+
+      /* ════════════════════════════════════════
+         [RPANEL] JS가 mob-nav로 내용물 이동했으므로
+         데스크톱 wrapper만 남김 – 모바일 숨김
+      ════════════════════════════════════════ */
+      #rpanel {
+        display: none !important;
+      }
+
+      /* ════════════════════════════════════════
+         [BOTTOM SHEET] #sel-info
+         화면 하단 고정 – 미니맵과 절대 겹치지 않음
+         (fixed이므로 DOM 위치 무관)
+      ════════════════════════════════════════ */
+      /* 선택 좌석 정보창 */
+      #sel-info {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 300 !important;
+        min-height: 22vh;
+        max-height: 38vh;
+        overflow-y: auto;
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+        background: #FFFFFF !important;
+        border-top: 1px solid #E0E0E0 !important;
+        border-radius: 20px 20px 0 0 !important;
+        box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.05) !important;
+        padding: 10px 16px 26px !important;
+        animation: mobSheet 0.22s cubic-bezier(.22, .61, .36, 1) both;
+      }
+
+      /* 핸들 바 */
+      #sel-info::before {
+        content: '';
+        display: block;
+        width: 34px;
+        height: 4px;
+        border-radius: 2px;
+        background: #ccc;
+        margin: 0 auto 10px;
+      }
+
+      #sel-info .si-title {
+        font-size: 13px !important;
+        color: #1a1a1a !important;
+        margin-bottom: 6px !important;
+      }
+
+      #sel-info .si-row {
+        font-size: 12px !important;
+        padding: 3px 0 !important;
+        line-height: 1.55;
+        color: #333 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+      }
+
+      #sel-info .si-row span {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        max-width: 100% !important;
+      }
+
+      #sel-info .si-row .l {
+        flex: 1 !important;
+      }
+
+      #sel-info .si-row .v {
+        flex: 0 0 auto !important;
+      }
+
+      @keyframes mobSheet {
+        from {
+          transform: translateY(28px);
+          opacity: 0;
+        }
+
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      /* ── 툴팁: 모바일 숨김 ── */
+      #tt {
+        display: none !important;
+      }
+
+    }
+
+    /* end @media (max-width: 768px) */
+
+    /* end @media mobile */
   </style>
+
+
 </head>
 
 <body>
@@ -743,19 +1147,33 @@
     <div class="wrap_select">
       <!-- 좌석선택 영역 상단바 -->
       <div class="box_seat_top">
-        <h3 class="tit_seat">좌석 선택
+        <h3 class="tit_seat">
           <span class="tit_s txt_prod_name" id="hdr-title"
             title="NCT WISH 2ND ANNIVERSARY FANMEETING 〈6명의 왕자가 나에게 청혼을 하면 곤란한데요〉">
             NCT WISH 2ND ANNIVERSARY FANMEETING 〈6명의 왕자가 나에게 청혼을 하면 곤란한데요〉
           </span>
         </h3>
-        <span class="seat_wrap_sel" style="display:flex;align-items:center;">
+        <span class="seat_wrap_sel">
           <select id="date-sel" class="sel_cate">
             <option>2026.02.21 (토) 14:30</option>
             <option>2026.02.21 (토) 20:00</option>
           </select>
-
         </span>
+
+        <!-- 밀도 범례 (모바일 통계형 슬림 레이아웃) -->
+        <div id="density-legend">
+          <span class="dl-title">플미 매물 밀도 <span style="font-size:8px; font-weight:normal;">(Low →
+              High)</span></span>
+          <div class="dl-bar-wrap">
+            <div class="dl-bar"></div>
+          </div>
+        </div>
+
+        <!-- 모달/드롭다운형 구역 선택 (모바일 전용) -->
+        <div id="mob-zone-selector" style="display:none;">
+          <select id="mob-zone-sel" class="sel_cate"
+            style="width:100%; border-radius:6px; padding:10px; border:1px solid #E9ECEF; background:#fff; font-weight:700;"></select>
+        </div>
       </div>
 
       <!-- 좌석 영역 -->
@@ -767,15 +1185,6 @@
         </div>
 
         <div class="stage_img">
-          <!-- 밀도 범례 -->
-          <div id="density-legend">
-            <div class="dl-title">플미 티켓 밀도<br>(색이 진할수록 해당 열의 매물이 많음)</div>
-            <div class="dl-bar-wrap">
-              <span class="dl-label">낮음<br>1개</span>
-              <div class="dl-bar"></div>
-              <span class="dl-label">높음<br>10개+</span>
-            </div>
-          </div>
           <div id="seats-scroll"
             style="width:100%; height:100%; overflow:auto; display:flex; align-items:flex-start; justify-content:center; padding: 20px;">
             <svg id="main-seats-svg" width="682" height="526" viewBox="0 0 682 526" xmlns="http://www.w3.org/2000/svg"
@@ -37670,7 +38079,22 @@
         var row = el.getAttribute('data-row');
         var k = currentZoneId + '-' + row;
         var c = seatCountMap[k] || { kr: 0, cn: 0 };
-        if (c.kr > 0 || c.cn > 0) { var count = c.kr + c.cn; var alpha = Math.min(0.95, 0.30 + (count * 0.05)); el.setAttribute('fill', 'rgba(244, 67, 54, ' + alpha + ')'); el.setAttribute('fill-opacity', '1'); }
+        if (c.kr > 0 || c.cn > 0) {
+          var count = c.kr + c.cn;
+          var totalSeats = (ZONE_SEAT_DATA[currentZoneId] && ZONE_SEAT_DATA[currentZoneId].rows[row]) ? ZONE_SEAT_DATA[currentZoneId].rows[row].length : 0;
+          var pct = totalSeats > 0 ? count / totalSeats : 0;
+          // Scale pct to make colors slightly more visible at low ratios, max 1.0.
+          var ratio = Math.min(1.0, Math.max(0, pct * 1.5));
+
+          // Orange: #FF9800 (255, 152, 0)
+          // Red: #E53935 (229, 57, 53)
+          var r = Math.round(255 + (229 - 255) * ratio);
+          var g = Math.round(152 + (57 - 152) * ratio);
+          var b = Math.round(0 + (53 - 0) * ratio);
+
+          el.setAttribute('fill', 'rgb(' + r + ',' + g + ',' + b + ')');
+          el.setAttribute('fill-opacity', '1');
+        }
         else {
           var isSpec = SPECIAL_HOVER_ZONES.indexOf(currentZoneId) !== -1;
           el.setAttribute('fill', isSpec ? '#7c4dff' : '#c8b89a');
@@ -37742,6 +38166,11 @@
       clearRowHighlight();
       renderZone(id);
       updateSeatVisuals();
+
+      var mobSel = document.getElementById('mob-zone-sel');
+      if (mobSel && mobSel.value !== id) {
+        mobSel.value = id;
+      }
     }
 
     function renderZone(id) {
@@ -37815,7 +38244,18 @@
       var k = z + '-' + r;
       var p = seatPremiumMap[k], m = seatMinPriceMap[k], c = seatCountMap[k] || { kr: 0, cn: 0, tickets: [] };
 
-      document.getElementById('sel-info').style.display = 'block';
+      var siEl = document.getElementById('sel-info');
+      // 모바일에서 Bottom Sheet animation 재실행 강제
+      if (window.matchMedia('(max-width: 768px)').matches) {
+        siEl.style.display = 'none';
+        siEl.style.animation = 'none';
+        // 브라우저 reflow 강제로 animation 리셋
+        void siEl.offsetHeight;
+        siEl.style.animation = '';
+        siEl.style.display = 'block';
+      } else {
+        siEl.style.display = 'block';
+      }
       document.getElementById('si-seat').querySelector('.v').textContent = z + '\uAD6C\uC5ED ' + r + '\uC5F4';
       var base = (SPECIAL_HOVER_ZONES.indexOf(z) !== -1) ? BASE_PRICE_SP : BASE_PRICE;
       document.getElementById('si-base').querySelector('.v').textContent = base.toLocaleString() + '\uC6D0';
@@ -37943,6 +38383,81 @@
     const SPECIAL_HOVER_ZONES = ['37', '1', '8', '26'];
     const ttEl = document.getElementById('tt');
     loadInitialData().then(function () { selectZone('35'); });
+
+    /* ─────────────────────────────────────────────
+       📱 MOBILE SANDWICH DOM REORDER
+       모바일(≤768px)에서 미니맵+구역선택을 #main 최상단으로 이동
+       데스크톱에서는 #rpanel 원위치 복원
+    ───────────────────────────────────────────── */
+    (function initMobileSandwich() {
+      var mq = window.matchMedia('(max-width: 768px)');
+      var mainEl = document.getElementById('main');
+      var rpanel = document.getElementById('rpanel');
+      var mmArea = document.getElementById('mm-area');
+      var gradeArea = document.getElementById('grade-area');
+      var selInfo = document.getElementById('sel-info');
+      var mobNav = null;
+
+      function applyMobile() {
+        if (mobNav) return; // 이미 적용됨
+
+        // 1. 구역 선택 드롭다운 생성 및 초기화
+        var mobSel = document.getElementById('mob-zone-sel');
+        if (mobSel && mobSel.options.length === 0) {
+          Object.keys(ZONE_LABEL_MAP).forEach(function (id) {
+            var opt = document.createElement('option');
+            opt.value = id;
+            opt.textContent = ZONE_LABEL_MAP[id];
+            mobSel.appendChild(opt);
+          });
+          mobSel.value = currentZoneId;
+          mobSel.onchange = function () { selectZone(this.value); };
+        }
+
+        // 2. #mob-nav 컨테이너 생성 (미니맵만 담음)
+        mobNav = document.createElement('div');
+        mobNav.id = 'mob-nav';
+        mobNav.appendChild(mmArea);
+        mobNav.style.margin = "0";
+        mobNav.style.background = "#fff";
+        mobNav.style.borderBottom = "1px solid #E0E0E0";
+
+        // 3. 순서 재배치
+        var wrapSelect = document.querySelector('.wrap_select');
+        var wrapSeat = document.querySelector('.wrap_seat');
+
+        if (wrapSelect && wrapSeat) {
+          wrapSelect.insertBefore(mobNav, wrapSeat);
+        }
+
+        if (selInfo) mainEl.appendChild(selInfo);
+      }
+
+      function restoreDesktop() {
+        if (!mobNav) return;
+        // #rpanel 원위치 복원
+        rpanel.insertBefore(mmArea, rpanel.firstChild);
+        rpanel.appendChild(gradeArea);
+        if (selInfo) rpanel.appendChild(selInfo);
+
+        mobNav.parentNode && mobNav.parentNode.removeChild(mobNav);
+        mobNav = null;
+      }
+
+      function check(e) {
+        if (e.matches) { applyMobile(); }
+        else { restoreDesktop(); }
+      }
+
+      // 초기 실행
+      check(mq);
+      // 뷰포트 변경 감지
+      if (mq.addEventListener) {
+        mq.addEventListener('change', check);
+      } else {
+        mq.addListener(check); // Safari 구버전 대응
+      }
+    })();
   </script>
 </body>
 
