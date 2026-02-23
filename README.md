@@ -2,7 +2,7 @@
 
 > **NCT WISH 2ND ANNIVERSARY FANMEETING** 좌석별 리셀 프리미엄 가격을 시각화하는 순수 프론트엔드 UI 프로젝트
 
-🔗 **Live Demo**: `https://mmilly-wish.github.io/show-resell/`
+[🔗 **Live Demo 바로가기**](https://mmilly-wish.github.io/show-resell/)
 
 ---
 
