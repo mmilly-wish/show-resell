@@ -962,12 +962,14 @@
       #seats-scroll {
         overflow: auto !important;
         width: 100vw !important;
-        padding: 6px 0 26vh 0 !important;
-        /* 여백 최소화(bottom sheet 없을 때 공백 줄임) */
+        padding: 6px 0 40vh 0 !important;
+        /* 하단 정보창(max 38vh)에 가려지지 않도록 충분한 여백 확보 */
         display: flex !important;
         justify-content: center !important;
         align-items: flex-start !important;
         flex: 1 !important;
+        min-height: 360px !important;
+        /* 최소 시야 확보 */
       }
 
       /* SVG: viewBox 비율 유지하며 100vw fit */
